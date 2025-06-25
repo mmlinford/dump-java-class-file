@@ -1,6 +1,10 @@
 [package]
 name = "dump-java-class-file"
-version = "0.0.0"
+version = "0.0.1"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+thiserror = "2.0.12"
+
+impl-cli-main = { git = "https://github.com/mmlinford/impl-cli-main.git", tag = "v0.1.0" }
