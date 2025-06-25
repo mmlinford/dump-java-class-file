@@ -1,0 +1,6 @@
+[package]
+name = "dump-java-class-file"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
